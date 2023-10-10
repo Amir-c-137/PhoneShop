@@ -14,7 +14,6 @@ body{
     /* Center the content vertically and horizontally */
     display: flex;  
     flex-direction: column;
-    flex;
     justify-content: center;
     align-items: center;
     text-align: center;
