@@ -95,6 +95,7 @@ button {
     border: none;
     cursor: pointer;
     transition: background-color 0.2s; /* Smooth color transition on hover */
+    border-radius: 5px;
 }
 
 button:hover {
