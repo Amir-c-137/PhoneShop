@@ -1,23 +1,29 @@
 /* Improved product box styling */
 
-body{
-    background-color:#282828;
+body {
+    background-color: #282828;
+    margin: 0; /* Remove default margin to ensure the content fills the screen */
+    font-family: Arial, sans-serif; /* Specify a font for better readability */
+}
+
+div {
+    display: flex;
+    flex-direction: row;
 }
 
 .header-container {
-    position: fixed;   /* Fixed position */
-    top: 0;            /* Stick to the top of the screen */
-    width: 100%;       /* Full width */
-    z-index: 1000;     /* Ensure it appears above other elements */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: #333;
 }
 
 main {
-    margin-top: 180px; /* Add margin to prevent content from being hidden behind the header */
+    margin-top: 180px;
 }
 
 header {
-    /* background-color: #333; Dark background color */
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -26,8 +32,7 @@ header {
 /* Improved styling for the navigation menu */
 nav ul {
     list-style-type: none;
-    /* text-align: center; Center the navigation links */
-    margin-top: 10px; /* Add some spacing at the top */
+    margin-top: 10px;
 }
 
 nav ul li {
@@ -36,34 +41,32 @@ nav ul li {
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Remove margin from the last link to avoid extra spacing */
+    margin-right: 0;
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove underlines from links */
-    color: #fff; /* White text color */
+    text-decoration: none;
+    color: #fff;
     font-weight: bold;
     padding: 5px 10px;
-    border: 1px solid #fff; /* Add a border to the links */
-    border-radius: 5px; /* Rounded corners for buttons */
+    border: 1px solid #fff;
+    border-radius: 5px;
     transition: background-color 0.2s, color 0.2s;
 }
 
 nav ul li a:hover {
-    background-color: #fff; /* Background color change on hover */
-    color: #333; /* Text color change on hover */
+    background-color: #fff;
+    color: #333;
 }
 
-
 .product {
-    border: 3px solid #181818; /* Lighter border color */
+    border: 3px solid #181818;
     padding: 20px;
-    margin: 0px 500px 50px 500px;
+    margin: 0; /* Reset margin to make it fill the screen */
     border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
-    /* Center the content vertically and horizontally */
-    display: flex;  
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -72,20 +75,20 @@ nav ul li a:hover {
 }
 
 .product:hover {
-    transform: scale(1.03); /* Enlarge on hover for a subtle effect */
+    /* transform: scale(1.03); */
     background-color: #717171;
 }
 
 .product img {
     max-width: 100%;
-    width: 300px; /* Adjust the image size */
+    width: 300px;
     height: auto;
 }
 
 .price {
     font-weight: bold;
     color: #333;
-    margin: 10px 0; /* Add spacing between price and button */
+    margin: 10px 0;
 }
 
 button {
@@ -94,10 +97,10 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    transition: background-color 0.2s; /* Smooth color transition on hover */
+    transition: background-color 0.2s;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #555; /* Darker background on hover */
+    background-color: #555;
 }
