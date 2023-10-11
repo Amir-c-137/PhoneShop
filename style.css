@@ -21,6 +21,8 @@ div {
 
 main {
     margin-top: 180px;
+    padding: 70px;
+
 }
 
 header {
@@ -62,8 +64,8 @@ nav ul li a:hover {
 .product {
     border: 3px solid #181818;
     padding: 20px;
-    margin: 0; /* Reset margin to make it fill the screen */
-    border-radius: 30px;
+    margin: 20px; /* Reset margin to make it fill the screen */
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
     display: flex;
