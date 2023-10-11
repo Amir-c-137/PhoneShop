@@ -22,6 +22,9 @@ div {
 main {
     margin-top: 180px;
     padding: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 
 }
 
@@ -77,11 +80,17 @@ nav ul li a:hover {
 }
 
 .product:hover {
-    /* transform: scale(1.03); */
+    transform: scale(1.008);
     background-color: #717171;
 }
 
+.product:hover img {
+    transform: scale(1.05);
+    /* background-color: #717171; */
+}
+
 .product img {
+    transition: all 0.3s ease-in-out;
     max-width: 100%;
     width: 300px;
     height: auto;
