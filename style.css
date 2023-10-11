@@ -18,6 +18,21 @@ div {
     z-index: 1000;
     background-color: #333;
 }
+
+.footer-container{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    background-color: #333;
+
+}
+
+footer > p{
+    text-align: center;
+    color: #b3b3b3;
+}
+
 .mb{
 margin-bottom: 40px;
 }
