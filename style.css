@@ -18,6 +18,9 @@ div {
     z-index: 1000;
     background-color: #333;
 }
+.mb{
+margin-bottom: 40px;
+}
 
 main {
     margin-top: 180px;
@@ -28,7 +31,16 @@ main {
 
 }
 
+.items-start {
+    align-items: flex-start;
+  }
+
+.flex {
+    display: flex;
+}
+
 header {
+
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -74,7 +86,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     background-color: #b3b3b3;
 }
@@ -103,7 +115,7 @@ nav ul li a:hover {
 }
 
 button {
-    background-color: #333;
+    background-color: #474747;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -113,5 +125,5 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #262626;
 }
