@@ -28,23 +28,45 @@ div {
 
 }
 
+div > p h1 h2{
+    color: #b3b3b3;
+}
+
 footer > p{
     text-align: center;
     color: #b3b3b3;
 }
 
+.div-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .mb{
 margin-bottom: 40px;
 }
+.pb{
+    padding-bottom: 10px;
+}
+
+.defult-color{
+    color: #b3b3b3;
+    font-size: larger;
+}
+
+.defult-size{
+    font-size: xx-large;
+}
 
 main {
-    margin-top: 180px;
+    margin-top: 80px;
     padding: 70px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 
 }
+
 
 .items-start {
     align-items: flex-start;
