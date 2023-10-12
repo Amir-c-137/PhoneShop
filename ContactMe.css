@@ -1,0 +1,134 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-image: url(./images/header.jpeg);
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+header h1 {
+    height: 70px;
+    padding-top: 30px;
+    text-align: center
+}
+
+body {
+    background-size: cover;
+    background-image: url(./images/sea-edge-79ab30e2.png);
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    margin-left: 38px;
+}
+
+p {
+    background-color: #f0a6cad6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 40px;
+    font-size: larger;
+}
+
+.p-hover:hover {
+    transform: scale(1.02);
+    transition: all 0.4s ease-in-out;
+    background-color: #FF6B9E;
+}
+
+.div-hover:hover {
+    transform: scale(1.02);
+    transition: all 0.4s ease-in-out;
+    background-color :#717171;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.styled-form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7e5e5cd;
+}
+
+.form-hover:hover {
+    transform: scale(1.02);
+    transition: all 0.4s ease-in-out;
+    background-color: #E7E5E5;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: hsl(303, 70%, 64%);
+    transform: scale(1.5);
+}
+
+
+.box1 {
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    background-color: #717171;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.box2 {
+    background-image: url(./images/blue-wave-abstract-background-web-background-blue-texture-banner-design-creative-cover-design-backdrop-minimal-background-illustration-vector.jpg);
+    background-repeat: round;
+    background-color: #717171;
+    padding: 20px;
+    margin: 70px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+
+.body-position{
+    margin-top: 400px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6bde;
+    color: #333;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff4f4f;
+    transform: scale(1.1);
+}
+
+
+.input {
+    border-radius: 7px;
+    background-color: #f2d3e2a0;
+    display: block;
+}
