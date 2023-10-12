@@ -9,37 +9,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
-<header class="header-container">
-    <h1 class="pb">منوی اصلی</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">منوی اصلی</a></li>
-            <li><a href="products.html">محصولات</a></li>
-            <li><a href="ContactMe.html">ارتباط با ما</a></li>
-        </ul>
-    </nav>
-</header>
+<body class="margin-top">
 
-<body style="margin: 200px;">
+    <header class="ContactMe-header-container">
+        <h1 class="pb">منوی اصلی</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">منوی اصلی</a></li>
+                <li><a href="products.html">محصولات</a></li>
+                <li><a href="ContactMe.html">ارتباط با ما</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="box2">
-
         <form class="styled-form form-hover" action="submit" method="post">
-            <div class="form-group">
+            <div class="form-group div-column">
                 <h2>Contact Me</h2>
                 <label for="name">Name:</label>
                 <input class="input" type="text" id="name" name="name" required>
             </div>
 
-            <div class="form-group">
+            <div class="form-group div-column">
                 <label for="email">Email:</label>
                 <input class="input" type="email" id="email" name="email" required>
             </div>
 
-            <div class="form-group">
+            <div class="form-group div-column">
                 <label for="message">Your Message:</label>
-                <textarea class="input" id="message" name="message" rows="7" cols="50" required></textarea>
+                <textarea class="input-v2" id="message" name="message" rows="10" cols="3" required></textarea>
             </div>
-            <input class="input , button" type="submit" value="Submit">
+            <input class="button" type="submit" value="Submit">
 
             <div class="social-icons">
                 <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -50,5 +50,6 @@
 
         </form>
     </div>
+
 </body>
 </html>

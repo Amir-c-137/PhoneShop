@@ -8,9 +8,29 @@ header {
 }
 
 header h1 {
-    height: 70px;
-    padding-top: 30px;
+    /* height: 70px; */
+    /* padding-top: 30px; */
     text-align: center
+}
+
+.ContactMe-header-container {
+    position: fixed;
+    padding-bottom: 55px;
+    /* margin-bottom: 200px; */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333;;
+}
+
+.ContactMe-footer-container{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    height: 50px;
+    background-color: #333;
+
 }
 
 body {
@@ -26,12 +46,17 @@ form {
 }
 
 p {
-    background-color: #f0a6cad6;
+    background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
     border-radius: 20px;
-    margin: 40px;
     font-size: larger;
+    text-align: center;
+}
+
+.columns-div{
+    display: flex;
+    flex-direction: column;
 }
 
 .p-hover:hover {
@@ -52,8 +77,9 @@ p {
 
 .styled-form {
     max-width: 400px;
+    max-height: 600px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -84,6 +110,10 @@ p {
     transform: scale(1.5);
 }
 
+.margin-top{
+    margin-top: 200px;
+}
+
 
 .box1 {
     height: 600px;
@@ -96,7 +126,6 @@ p {
 }
 
 .box2 {
-    background-image: url(./images/blue-wave-abstract-background-web-background-blue-texture-banner-design-creative-cover-design-backdrop-minimal-background-illustration-vector.jpg);
     background-repeat: round;
     background-color: #717171;
     padding: 20px;
@@ -119,6 +148,7 @@ p {
     font-weight: bold;
     margin-top: 20px;
     transition: all 0.3s ease;
+    width: 120px;
 }
 
 .button:hover {
@@ -129,6 +159,16 @@ p {
 
 .input {
     border-radius: 7px;
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: #f2d3e2a0;
+    display: block;
+}
+
+.input-v2 {
+    border-radius: 7px;
+    margin-top: 10px;
     background-color: #f2d3e2a0;
     display: block;
 }
